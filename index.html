@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Card Counting Helper</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script async src="./javascript/index.js"></script>
+  </head>
+  <body>
+    <h1>Card Counting Trainer</h1>
+    <h4 id='count'> Count: 0</h4>
+    <h4 id='bust'> </h4>
+    <button class="btn draw" onclick="draw()">Hit</button>
+    <button class="btn double" onclick="draw()">Double Down</button>
+    <button class="btn split" onclick="draw()">Split</button> 
+    <button class="btn stay" onclick="draw()">Stand</button>
+    <button class="btn count" onclick="count_hide()">Show/Hide Count</button>
+    <button class="btn total" onclick="total_hide()">Show/Hide Total</button>
+    <img id = "I0" src="//:0" style="opacity:0;bottom:100px;width:100px;height:180px;left:0px;position:fixed;"/>
+    <img id = "I1" src="//:0" style="opacity:0;bottom:100px;width:100px;height:180px;left:100px;position:fixed;"/>
+    <img id = "I2" src="//:0" style="opacity:0;bottom:100px;width:100px;height:180px;left:200px;position:fixed;"/>
+    <img id = "I3" src="//:0" style="opacity:0;bottom:100px;width:100px;height:180px;left:300px;position:fixed;"/>
+    <img id = "I4" src="//:0" style="opacity:0;bottom:100px;width:100px;height:180px;left:400px;position:fixed;"/>
+    <img id = "I5" src="//:0" style="opacity:0;bottom:100px;width:100px;height:180px;left:500px;position:fixed;"/>
+    <img id = "I6" src="//:0" style="opacity:0;bottom:100px;width:100px;height:180px;left:600x;position:fixed;"/>
+    <h2 style="text-align:left;100px;" id="total">Total: 0</p>
+    <h2 style="text-align:right;bottom:1000px" id = "money" >Money: 100</p>
+  <body>
+</html>

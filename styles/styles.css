@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  background-color: #f0e8c5;
+}
+.fix{
+    position:fixed;
+    bottom:0px;
+    left:10;
+    width:180px;
+    height:180px;
+}
+.btn {
+  position:fixed;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.counter{
+  position:fixed;
+  top:0px;
+  left:0px;
+  }
+/* On mouse-over */
+.left{display:inline-block}
+.right{display:inline-block; float:right}
+
+
+.stay {left 50%;bottom:0px;}
+.draw {left:25%;bottom:0px;}
+.double {left:0%;bottom:0px;}
+.split {left: 75%;bottom:0px;}
+.count{right: 0%;top:0px;}
+.total{left:0%;top:0px;}
